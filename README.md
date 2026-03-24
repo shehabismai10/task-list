@@ -68,7 +68,3 @@ task-list/
 
 **👨‍💻 Developed by [Shehab Ismail](https://github.com/shehabismai10)**
 ```
-
-3.  **Clean Lists:** حولت الـ Usage لنقط (Bullet points) عشان تبقى أوضح.
-
-**جرب تنسخ ده دلوقتي وحطه في الـ README عندك، هتلاقي الشكل اختلف 180 درجة وبقى Professional جداً. قولي لو لسه فيه أي حتة مضايقاك!** ⚽🔥
