@@ -67,4 +67,3 @@ task-list/
 ---
 
 **👨‍💻 Developed by [Shehab Ismail](https://github.com/shehabismai10)**
-```
