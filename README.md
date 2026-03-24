@@ -1,3 +1,4 @@
+
 # ✅ Task-List Management System
 
 ## 📖 Overview
@@ -16,7 +17,7 @@
 
 ## 🛠️ Tech Stack
 * **Java**: Core application logic.
-* **Spring Boot (optional/if used)**: Backend API framework.
+* **Spring Boot**: Backend API framework.
 * **MySQL / H2**: Database for task storage.
 * **Maven**: Dependency and build management.
 
@@ -28,34 +29,46 @@
    ```bash
    git clone [https://github.com/shehabismai10/task-list.git](https://github.com/shehabismai10/task-list.git)
    cd task-list
-Configuration:
-Update the application.properties (if applicable) with your database credentials.
+   ```
 
-Build and Run:
+2. **Configuration:**
+   Update the `application.properties` with your database credentials.
 
-Bash
-mvn clean install
-mvn spring-boot:run
-##🏗️ Project Structure
-Plaintext
+3. **Build and Run:**
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
+   ```
+
+---
+
+## 🏗️ Project Structure
+```text
 task-list/
-├── src/
-│   ├── main/
-│   │   ├── java/com/pl/task_list/
-│   │   │   ├── controller/   # Task API Endpoints
-│   │   │   ├── service/      # Business Logic & Validation
-│   │   │   ├── repository/   # Database Operations
-│   │   │   └── model/        # Task Entity definitions
-│   │   └── resources/
-│   │       └── application.properties
-└── pom.xml
-📌 Usage
-Add Task: Create a new entry with a title and description.
+├── 📁 src/
+│   ├── 📁 main/
+│   │   ├── 📁 java/com/pl/task_list/
+│   │   │   ├── 📁 controller/   # Task API Endpoints
+│   │   │   ├── 📁 service/      # Business Logic & Validation
+│   │   │   ├── 📁 repository/   # Database Operations
+│   │   │   └── 📁 model/        # Task Entity definitions
+│   │   └── 📁 resources/
+│   │       └── 📄 application.properties
+└── 📄 pom.xml
+```
 
-Update: Mark tasks as completed or edit details.
+---
 
-Delete: Remove tasks from the list once they are no longer needed.
+## 📌 Usage
+* **Add Task**: Create a new entry with a title and description.
+* **Update**: Mark tasks as completed or edit details.
+* **Delete**: Remove tasks from the list once they are no longer needed.
 
-Distributed under the MIT License.
+---
 
-👨‍💻 Developed by Shehab Ismail
+**👨‍💻 Developed by [Shehab Ismail](https://github.com/shehabismai10)**
+```
+
+3.  **Clean Lists:** حولت الـ Usage لنقط (Bullet points) عشان تبقى أوضح.
+
+**جرب تنسخ ده دلوقتي وحطه في الـ README عندك، هتلاقي الشكل اختلف 180 درجة وبقى Professional جداً. قولي لو لسه فيه أي حتة مضايقاك!** ⚽🔥
